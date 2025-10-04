@@ -30,7 +30,7 @@ export default function Login(){
   return (
     <div className="min-h-screen grid place-items-center bg-gray-50">
       <form className="bg-white border rounded-2xl shadow p-6 w-96 space-y-4" onSubmit={submit}>
-        <h1 className="text-xl font-semibold">Entrar teste</h1>
+        <h1 className="text-xl font-semibold">Entrar</h1>
         {err && <div className="text-red-800 text-sm">{err}</div>}
         <input className="w-full border rounded px-3 py-2" value={email} onChange={e=>setEmail(e.target.value)} placeholder="Email"/>
         <input type="password" className="w-full border rounded px-3 py-2" value={password} onChange={e=>setPassword(e.target.value)} placeholder="Senha"/>
