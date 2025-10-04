@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+ border-radius: 5px;
+ border: 1px solid;
+ padding: 0px 5px 0px 5px;
+}
+
+.btn:hover{
+  filter: grayscale(1)
+}
+
+.btn-success{
+    background-color: green;
+    color: white;
+}
