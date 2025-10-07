@@ -6,7 +6,7 @@ const items = [
   { to:'/users', label:'Usuários', icon: Users },
   { to:'/roles', label:'Papéis (RBAC)', icon: KeyRound },
   { to:'/policies', label:'Políticas (SoD)', icon: GitBranch },
-  { to:'/reviews', label:'Revisões de Acesso', icon: ClipboardList },
+  // { to:'/reviews', label:'Revisões de Acesso', icon: ClipboardList },
   { to:'/suggestions', label:'Sugestões (IA)', icon: Wand2 },
   { to:'/settings', label:'Configurações', icon: Settings }
 ];
